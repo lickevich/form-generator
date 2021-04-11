@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormTextarea render the component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdvvaa kTYFsi"
+  >
+    <div
+      class="sc-gsDJrp fhKCEr"
+    >
+      <label
+        for="Label_textarea1"
+        title="Label_textarea"
+      >
+        Label_textarea
+      </label>
+    </div>
+    <div
+      class="sc-gsDJrp fhKCEr"
+    >
+      <textarea
+        class="active"
+        id="Label_textarea1"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

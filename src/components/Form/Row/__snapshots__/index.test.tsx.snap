@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Row render the component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdvvaa kTYFsi"
+  >
+    <label
+      for="123"
+    >
+      Label
+    </label>
+    <input
+      id="123"
+      type="text"
+    />
+  </div>
+</DocumentFragment>
+`;

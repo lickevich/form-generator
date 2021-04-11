@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs render the component 1`] = `
+<DocumentFragment>
+  <a
+    aria-current="page"
+    class="sc-bdvvaa fojMIO selected"
+    href="/"
+  >
+    Config
+  </a>
+  <a
+    class="sc-bdvvaa fojMIO"
+    href="/result"
+  >
+    Result
+  </a>
+</DocumentFragment>
+`;

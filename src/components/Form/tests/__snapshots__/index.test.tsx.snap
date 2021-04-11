@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form render the component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dkPtyc jEDgkp"
+  >
+    <h1
+      class="sc-bdvvaa bDsQHB"
+    >
+      Form Title
+    </h1>
+  </div>
+  <form
+    class="sc-gsDJrp hjUSrA"
+  >
+    <div
+      class="sc-dkPtyc jEDgkp"
+    >
+      <div
+        class="sc-hKwCoD eERlPP"
+      >
+        <label
+          for="textfieldundefined"
+          title="textfield"
+        >
+          textfield
+        </label>
+      </div>
+      <div
+        class="sc-hKwCoD eERlPP"
+      >
+        <input
+          id="textfieldundefined"
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-dkPtyc jEDgkp"
+    >
+      <div
+        class="sc-hKwCoD eERlPP"
+      >
+        <label
+          for="numberfieldundefined"
+          title="numberfield"
+        >
+          numberfield
+        </label>
+      </div>
+      <div
+        class="sc-hKwCoD eERlPP"
+      >
+        <input
+          id="numberfieldundefined"
+          type="number"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-dkPtyc jEDgkp"
+    >
+      <div
+        class="sc-hKwCoD eERlPP"
+      >
+        <label
+          for="textarea"
+          title="textarea"
+        >
+          textarea
+        </label>
+      </div>
+      <div
+        class="sc-hKwCoD eERlPP"
+      >
+        <textarea
+          id="textarea"
+          type="textarea"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-dkPtyc jEDgkp"
+    >
+      <div
+        class="sc-hKwCoD eERlPP"
+      >
+        <label
+          for="datefieldundefined"
+          title="datefield"
+        >
+          datefield
+        </label>
+      </div>
+      <div
+        class="sc-hKwCoD eERlPP"
+      >
+        <input
+          id="datefieldundefined"
+          type="date"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-dkPtyc jEDgkp"
+    >
+      <div
+        class="sc-hKwCoD eERlPP"
+      >
+        <label
+          title="checkbox"
+        >
+          checkbox
+        </label>
+      </div>
+      <div
+        class="sc-hKwCoD eERlPP"
+      >
+        <div>
+          <input
+            id="checkbox10"
+            type="checkbox"
+          />
+          <label
+            for="checkbox10"
+            title="checkbox1"
+          >
+            checkbox1
+          </label>
+        </div>
+        <div>
+          <input
+            id="checkbox21"
+            type="checkbox"
+          />
+          <label
+            for="checkbox21"
+            title="checkbox2"
+          >
+            checkbox2
+          </label>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-dkPtyc jEDgkp"
+    >
+      <div
+        class="sc-hKwCoD eERlPP"
+      >
+        <label
+          title="radio"
+        >
+          radio
+        </label>
+      </div>
+      <div
+        class="sc-hKwCoD eERlPP"
+      >
+        <div>
+          <input
+            id="radio10"
+            name="radio"
+            type="radio"
+            value="1"
+          />
+          <label
+            for="radio10"
+            title="radio1"
+          >
+            radio1
+          </label>
+        </div>
+        <div>
+          <input
+            id="radio21"
+            name="radio"
+            type="radio"
+            value="2"
+          />
+          <label
+            for="radio21"
+            title="radio2"
+          >
+            radio2
+          </label>
+        </div>
+      </div>
+    </div>
+  </form>
+  <div
+    class="sc-eCImvq UFQQy"
+  >
+    <input
+      class="sc-jRQAMF EJfAC"
+      type="submit"
+      value="Apply"
+    />
+    <input
+      class="sc-jRQAMF EJfAC"
+      type="button"
+      value="Ok"
+    />
+    <input
+      class="sc-jRQAMF EJfAC"
+      type="reset"
+      value="Reset"
+    />
+  </div>
+</DocumentFragment>
+`;

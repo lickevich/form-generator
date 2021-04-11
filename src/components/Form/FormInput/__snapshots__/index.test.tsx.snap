@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormInput render the component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdvvaa kTYFsi"
+  >
+    <div
+      class="sc-gsDJrp fhKCEr"
+    >
+      <label
+        for="Label_input0"
+        title="Label_input"
+      >
+        Label_input
+      </label>
+    </div>
+    <div
+      class="sc-gsDJrp fhKCEr"
+    >
+      <input
+        autocomplete="on"
+        id="Label_input0"
+        type="text"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

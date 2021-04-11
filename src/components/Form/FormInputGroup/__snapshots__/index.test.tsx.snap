@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormInputGroup render the component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdvvaa kTYFsi"
+  >
+    <div
+      class="sc-gsDJrp fhKCEr"
+    >
+      <label
+        title="radio"
+      >
+        radio
+      </label>
+    </div>
+    <div
+      class="sc-gsDJrp fhKCEr"
+    >
+      <div>
+        <input
+          id="radio10"
+          name="radio"
+          type="radio"
+          value="1"
+        />
+        <label
+          for="radio10"
+          title="radio1"
+        >
+          radio1
+        </label>
+      </div>
+      <div>
+        <input
+          id="radio21"
+          name="radio"
+          type="radio"
+          value="2"
+        />
+        <label
+          for="radio21"
+          title="radio2"
+        >
+          radio2
+        </label>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

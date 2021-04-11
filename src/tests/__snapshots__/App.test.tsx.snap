@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App render the component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdvvaa dLwSED"
+  >
+    <div
+      class="sc-hKwCoD enIAsM"
+    />
+    <a
+      aria-current="page"
+      class="sc-dkPtyc izQPWx selected"
+      href="/"
+    >
+      Config
+    </a>
+    <a
+      class="sc-dkPtyc izQPWx"
+      href="/result"
+    >
+      Result
+    </a>
+    <div
+      class="sc-gsDJrp FIKdM"
+    >
+      <form>
+        <div
+          class="sc-gKckTs czEeVz"
+        >
+          <textarea
+            class="sc-eCImvq ciqZQD"
+          >
+            {
+  "title": "Form Title",
+  "items": [
+    { "type": "text", "label": "textfield" },
+    { "type": "number", "label": "numberfield" },
+    { "type": "textarea", "label": "textarea" },
+    { "type": "date", "label": "datefield" },
+    {
+      "type": "checkbox",
+      "groupLabel": "checkbox",
+      "items": [{ "label": "checkbox1" }, { "label": "checkbox2" }]
+    },
+    {
+      "type": "radio",
+      "groupLabel": "radio",
+      "items": [
+        { "label": "radio1", "name": "radio", "value": "1" },
+        { "label": "radio2", "name": "radio", "value": "2" }
+      ]
+    }
+  ],
+  "buttons": [
+    { "type": "submit", "value": "Apply" },
+    { "type": "button", "value": "Ok" },
+    { "type": "reset", "value": "Reset" }
+  ]
+}
+          </textarea>
+        </div>
+        <div
+          class="sc-iCfLBT imxnEl"
+        >
+          <input
+            class="sc-jRQAMF EJfAC"
+            id=""
+            type="submit"
+            value="Apply"
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,26 +1,39 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React, { useContext } from "react";
+import { Switch, Route, Redirect } from "react-router-dom";
 
-function App() {
+import { Context } from "./context";
+import { ContextType } from "./type";
+import routes from "./routes";
+import { Container, Main } from "./style";
+import Tabs from "./components/Tabs";
+import Notification from "./components/Notification";
+import Config from "./containers/Config";
+import Result from "./containers/Result";
+import { ROUTES } from "./constants";
+
+const App: React.FC = () => {
+  const { error, isResultAvailable } = useContext(Context) as ContextType;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Notification message={error} />
+      <Tabs routes={routes} />
+      <Main>
+        <Switch>
+          <Route exact path={ROUTES.CONFIG.PATH}>
+            <Config />
+          </Route>
+          <Route exact path={ROUTES.RESULT.PATH}>
+            {isResultAvailable ? (
+              <Result />
+            ) : (
+              <Redirect to={ROUTES.CONFIG.PATH} />
+            )}
+          </Route>
+        </Switch>
+      </Main>
+    </Container>
   );
-}
+};
 
 export default App;
